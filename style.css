@@ -1,6 +1,7 @@
 /* ===== Google Font Import - Poformsins ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +10,14 @@
 }
 
 
+
+.navbar-div{
+   
+  
+    position: fixed;
+    width: 100%;
+
+}
 
 .main {
   height: 100vh; /* Set the height of the main div to the full height of the screen */
@@ -21,11 +30,13 @@
 .login-container {
   width: 40%; /* Set the width of the form container to 40% of the screen */
   display: flex;
+  position: relative;
+  top: 20px;;
   margin-right: 50px;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0); /* Set the background color of the form container to white */
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Add a subtle box shadow to the form container */
+  
 }
 
 .title-div{
@@ -59,7 +70,7 @@
 .container .form{
     width: 50%;
     padding: 30px;
-    background-color: #ffffff50;
+    background-color: #ffffff12;
     transition: margin-left 0.18s ease;
 }
 
