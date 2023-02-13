@@ -21,7 +21,7 @@
 
 .main {
   height: 100vh; /* Set the height of the main div to the full height of the screen */
-  background-image: url(image/main\ cover\ image.jpg); /* Replace "path/to/your/background-image.jpg" with the path to your background image */
+  background-image: url(image/cover.jpg); /* Replace "path/to/your/background-image.jpg" with the path to your background image */
   background-size: cover; /* Make the background image cover the entire div */
   display: flex; /* Use flexbox to position the form container */
   justify-content: flex-end; /* Align the form container to the right */
